@@ -2,7 +2,7 @@
 
 namespace Lab8
 {
-    class Program
+    class Retailer
     {
         static void Main(string[] args)
         {
@@ -10,3 +10,6 @@ namespace Lab8
         }
     }
 }
+
+
+
