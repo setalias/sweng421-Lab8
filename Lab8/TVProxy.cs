@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    interface ITV
+    class TVProxy
     {
+        public TV replenishTV(int budget)
+        {
 
-        internal int getPrice();
-
-        internal void setPrice(int price);
-
-        internal String getType();
-
+            return replenishTV(budget);
+        }
 
 
     }
