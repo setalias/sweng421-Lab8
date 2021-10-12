@@ -8,7 +8,5 @@ namespace Lab8
 
         void getInfo();
 
-        int getPrice();
-
     }
 }
