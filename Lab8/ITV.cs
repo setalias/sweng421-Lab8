@@ -4,22 +4,21 @@ namespace Lab8
 {
     public interface ITV
     {
+        TV replenishTV(int budget);
 
-        public TV replenishTV(int budget);
+        void getInfo();
 
-        public void getInfo();
+        int getPrice();
 
-        internal int getPrice();
+        void setPrice(int price);
 
-        internal void setPrice(int price);
+        string getTVType();
 
-        internal string getTVType();
+        void setType(string tvType);
 
-        internal void setType(string tvType);
+        string getBrand();
 
-        internal string getBrand();
-
-        internal void setBrand(string brand);
+        void setBrand(string brand);
 
     }
 }
