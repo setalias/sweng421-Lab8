@@ -9,8 +9,8 @@ namespace Lab8
     public class TV : ITV
     {
         private int price;
-        private String brand;
-        private String type;
+        private string brand;
+        private string type;
 
         public TV()
         {

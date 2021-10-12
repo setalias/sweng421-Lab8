@@ -10,13 +10,13 @@ namespace Lab8
     {
         private ITV tv;
 
+        public TVProxy() { }
+
         public TVProxy(ITV tv)
         {
             this.tv = tv;
         }
-
-        public TVProxy() { }
-
+        
         public void getInfo()
         {
             if (this.tv == null) 
