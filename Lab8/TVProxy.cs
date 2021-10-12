@@ -17,39 +17,12 @@ namespace Lab8
 
         public void getInfo()
         {
-            Console.WriteLine("Type: " + this.getTVType());
-            Console.WriteLine("Price: $" + this.getPrice());
+            this.tv.getInfo();
         }
 
-        internal int getPrice()
+        public TV replenishTV(int budget)
         {
-            return this.tv.getPrice();
+            throw new NotImplementedException();
         }
-
-        internal void setPrice(int price)
-        {
-            this.tv.setPrice(price);
-        }
-
-        internal string getTVType()
-        {
-            this.tv.getTVType();
-        }
-
-        internal void setType(string tvType)
-        {
-            this.tv.setType(tvType);
-        }
-
-        internal string getBrand()
-        {
-            return this.tv.getBrand();
-        }
-
-        internal void setBrand(string brand)
-        {
-            this.setBrand(brand);
-        }
-
     }
 }

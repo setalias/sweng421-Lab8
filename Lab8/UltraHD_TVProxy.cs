@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class UltraHD_TVProxy
     public class UltraHD_TVProxy : TVProxy, IUltraHD_TV
     {
         private IUltraHD_TV tv;
