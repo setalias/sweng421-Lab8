@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class VizioTV : ITV
+    class VizioTV
     {
     }
 }

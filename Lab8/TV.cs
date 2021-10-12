@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class TV
+    public class TV : ITV
     {
         private int price;
         private String brand;
@@ -21,7 +21,6 @@ namespace Lab8
 
         public TV replenishTV(int budget)
         {
-
             throw new NotImplementedException();
         }
 
@@ -30,32 +29,32 @@ namespace Lab8
             Console.WriteLine("Price: $" + this.getPrice());
         }
 
-        protected int getPrice()
+        internal int getPrice()
         {
             return this.price;
         }
 
-        protected void setPrice(int price)
+        internal void setPrice(int price)
         {
             this.price = price;
         }
 
-        protected string getType()
+        internal string getType()
         {
             return this.type;
         }
 
-        protected void setType(string tvType)
+        internal void setType(string tvType)
         {
             this.type = tvType;
         }
 
-        protected string getBrand()
+        internal string getBrand()
         {
             return this.brand;
         }
 
-        protected void setBrand(string brand)
+        internal void setBrand(string brand)
         {
             this.brand = brand;
         }
