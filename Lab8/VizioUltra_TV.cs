@@ -12,6 +12,7 @@ namespace Lab8
         {
             this.setPrice(450);
             this.setBrand("Vizio");
+            this.setType("Ultra TV");
         }
 
     }

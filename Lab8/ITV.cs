@@ -4,7 +4,7 @@ namespace Lab8
 {
     public interface ITV
     {
-        TV replenishTV(int budget);
+        ITV replenishTV(int budget);
 
         void getInfo();
 

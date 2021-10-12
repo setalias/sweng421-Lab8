@@ -14,17 +14,19 @@ namespace Lab8
 
         public TV()
         {
+
             this.setBrand("None");
             this.setType("Regular");
             this.setPrice(200);
         }
 
-        public TV replenishTV(int budget)
+        public ITV replenishTV(int budget)
         {
             throw new NotImplementedException();
         }
 
         public void getInfo() {
+            Console.WriteLine("Brand: " + this.getBrand());
             Console.WriteLine("Type: " + this.getTVType());
             Console.WriteLine("Price: $" + this.getPrice());
         }

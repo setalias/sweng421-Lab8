@@ -12,6 +12,7 @@ namespace Lab8
         {
             this.setPrice(250);
             this.setBrand("Vizio");
+            
         }
     }
 }

@@ -12,6 +12,7 @@ namespace Lab8
         {
             this.setPrice(480);
             this.setBrand("Sony");
+            this.setType("Ultra TV");
         }
     }
 }

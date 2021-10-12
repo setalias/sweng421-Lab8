@@ -12,6 +12,7 @@ namespace Lab8
         {
             this.setPrice(280);
             this.setBrand("Sony");
+            
         }
     }
 }

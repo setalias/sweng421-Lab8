@@ -12,11 +12,19 @@ namespace Lab8
         {
             this.setPrice(380);
             this.setBrand("Sony");
+            this.setType("Smart TV");
         }
 
         public double getPowerUsage()
         {
             return 5.15;
         }
+
+        public new void getInfo()
+        {
+            base.getInfo();
+            Console.WriteLine("Power Usage: " + this.getPowerUsage() + " Watts");
+        }
+
     }
 }

@@ -12,11 +12,18 @@ namespace Lab8
         {
             this.setPrice(350);
             this.setBrand("Vizio");
+            this.setType("Smart TV");
         }
 
         public double getPowerUsage()
         {
             return 6.35;
+        }
+
+        public new void getInfo()
+        {
+            base.getInfo();
+            Console.WriteLine("Power Usage: " + this.getPowerUsage() + " Watts");
         }
     }
 }

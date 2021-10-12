@@ -6,7 +6,10 @@ namespace Lab8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ITV tv = new TVProxy();
+            tv.replenishTV(150).getInfo();
+
+
         }
     }
 }
