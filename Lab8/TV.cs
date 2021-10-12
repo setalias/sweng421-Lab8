@@ -25,7 +25,7 @@ namespace Lab8
         }
 
         public void getInfo() {
-            Console.WriteLine("Type: " + this.getType());
+            Console.WriteLine("Type: " + this.getTVType());
             Console.WriteLine("Price: $" + this.getPrice());
         }
 
@@ -39,7 +39,7 @@ namespace Lab8
             this.price = price;
         }
 
-        internal string getType()
+        internal string getTVType()
         {
             return this.type;
         }

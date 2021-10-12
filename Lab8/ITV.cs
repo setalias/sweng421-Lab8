@@ -10,15 +10,5 @@ namespace Lab8
 
         int getPrice();
 
-        void setPrice(int price);
-
-        string getTVType();
-
-        void setType(string tvType);
-
-        string getBrand();
-
-        void setBrand(string brand);
-
     }
 }
