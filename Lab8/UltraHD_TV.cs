@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    sealed class UltraHD_TV : TV
+    sealed class UltraHD_TV : TV, IUltraHD_TV
     {
         public UltraHD_TV() : base()
         {
