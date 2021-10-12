@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    interface IUltraHD_TV : ITV
+    interface IUltraHD_TV
     {
     }
 }

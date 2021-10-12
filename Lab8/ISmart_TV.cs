@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    interface ISmart_TV : ITV
+    interface ISmart_TV
     {
+        double getPowerUsage();
     }
 }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class UltraHD_TV : TV
+    sealed class UltraHD_TV : TV
     {
+        public UltraHD_TV() : base()
+        {
+            this.setPrice(400);
+            this.setType("Ultra");
+        }
     }
 }

@@ -9,37 +9,56 @@ namespace Lab8
     class TV
     {
         private int price;
-        private String brand = "None";
-        private ITV tv;
+        private String brand;
+        private String type;
 
-
-        internal int getPrice()
+        public TV()
         {
-
-            return getPrice();
-        }
-
-        internal void setPrice(int price)
-        {
-
-        }
-
-        internal String getType()
-        {
-
-            return getType();
+            this.setBrand("None");
+            this.setType("Regular");
+            this.setPrice(200);
         }
 
         public TV replenishTV(int budget)
         {
 
-            return replenishTV(budget);
+            throw new NotImplementedException();
         }
 
+        public void getInfo() {
+            Console.WriteLine("Type: " + this.getType());
+            Console.WriteLine("Price: $" + this.getPrice());
+        }
 
-        public void getInfo() { }
-        
+        protected int getPrice()
+        {
+            return this.price;
+        }
 
+        protected void setPrice(int price)
+        {
+            this.price = price;
+        }
+
+        protected string getType()
+        {
+            return this.type;
+        }
+
+        protected void setType(string tvType)
+        {
+            this.type = tvType;
+        }
+
+        protected string getBrand()
+        {
+            return this.brand;
+        }
+
+        protected void setBrand(string brand)
+        {
+            this.brand = brand;
+        }
     }
 
      
