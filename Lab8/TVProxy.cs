@@ -6,14 +6,50 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class TVProxy
+    public class TVProxy : ITV
     {
-        public TV replenishTV(int budget)
-        {
+        private ITV tv;
 
-            return replenishTV(budget);
+        public TVProxy(ITV tv)
+        {
+            this.tv = tv;
         }
 
+        public void getInfo()
+        {
+            Console.WriteLine("Type: " + this.getTVType());
+            Console.WriteLine("Price: $" + this.getPrice());
+        }
+
+        internal int getPrice()
+        {
+            return this.tv.getPrice();
+        }
+
+        internal void setPrice(int price)
+        {
+            this.tv.setPrice(price);
+        }
+
+        internal string getTVType()
+        {
+            this.tv.getTVType();
+        }
+
+        internal void setType(string tvType)
+        {
+            this.tv.setType(tvType);
+        }
+
+        internal string getBrand()
+        {
+            return this.tv.getBrand();
+        }
+
+        internal void setBrand(string brand)
+        {
+            this.setBrand(brand);
+        }
 
     }
 }
