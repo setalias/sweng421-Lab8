@@ -5,8 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Lab8_Client\Lab8_Client.csproj" />
-  </ItemGroup>
-
 </Project>
