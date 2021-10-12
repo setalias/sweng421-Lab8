@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class SonyTV : TV
+    class UltraHD_TVProxy
     {
-        public SonyTV() : base() 
-        {
-            this.setPrice(280);
-            this.setBrand("Sony");
-        }
     }
 }

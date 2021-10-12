@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Lab8
 {
-    class VizioTV : ITV
+    class VizioTV : TV
     {
+        public VizioTV() : base()
+        {
+            this.setPrice(250);
+            this.setBrand("Vizio");
+        }
     }
 }
